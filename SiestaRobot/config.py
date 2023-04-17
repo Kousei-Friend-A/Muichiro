@@ -14,21 +14,19 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 24167583  # integer value, dont use ""
-    API_HASH = "fc310e9f95191402f0bfd1eb5ce78823"
-    TOKEN = "5615540079:AAF8LIZUR61a5Gpd804MzqwVffcDNs9I1qk"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5938650171  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "peaceful_wolf"
-    SUPPORT_CHAT = "machinaxsupport"  # Your own group for support, do not add the @
+    API_ID =   # integer value, dont use ""
+    API_HASH = ""
+    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID =  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = ""
+    SUPPORT_CHAT = ""  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001948970030
+        
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001948970030
-    )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+            )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ERROR_LOGS = (
-        -1001948970030
-    )  # Prints information Error
+            )  # Prints information Error
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://yadzttso:VQl7Cbf0AnaUDGRcs1lvm7CqiOzOQTut@rosie.db.elephantsql.com/yadzttso"  # needed for any database modules
